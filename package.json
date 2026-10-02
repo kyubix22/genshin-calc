@@ -1,0 +1,14 @@
+{
+  "name": "cronica-de-teyvat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calculadora de daño de Genshin Impact para móvil (PWA)",
+  "scripts": {
+    "build:data": "node scripts/build-data.cjs",
+    "test": "node --test tests/*.test.js",
+    "start": "npx --yes http-server app -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "genshin-db": "^5.2.14"
+  }
+}
